@@ -6,7 +6,7 @@
 
 <div class="card shadow mb-4">
     <div class="card-header py-3">
-        <h6 class="m-0 font-weight-bold text-primary">DataTables Example</h6>
+        <h6 class="m-0 font-weight-bold text-primary">User DataTable</h6>
     </div>
     <div class="card-body">
         <div class="table-responsive">
@@ -22,7 +22,7 @@
                         <th>Action</th>
                     </tr>
                 </thead>
-                <tfoot>
+                <!-- <tfoot>
                     <tr>
                         <th>Username</th>
                         <th>Email</th>
@@ -32,7 +32,7 @@
                         <th>City</th>
                         <th>Action</th>
                     </tr>
-                </tfoot>
+                </tfoot> -->
                 <tbody>
                    <tr *ngFor="let user of userList" >
                      <td>{{user.username}}</td>  
